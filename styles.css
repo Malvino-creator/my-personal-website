@@ -6,13 +6,19 @@
 }
 body{
     color: #fff;
+    margin:0%;;
+    padding:0%;
 }
 #header{
-    background-image: url(images/background.png);
     width: 100%;
     height: 100vh;
+    margin-top: 20%;
     background-size: cover;
-    background-position: center;
+background-position: center;
+}
+.background{
+
+
 }
 .logo{
     width: 20%;
@@ -47,7 +53,7 @@ nav ul li a::after{
     position: absolute;
     left: 0;
     bottom: -6px;
-    transition: 2s;
+    transition: 1s;
 }
 nav ul li a:hover::after{
     width: 100%;
