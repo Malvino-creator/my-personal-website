@@ -9,7 +9,7 @@ body{
     color: #fff;
 }
 #header{
-    background-image: url(Images/background.jpg);
+    background-image: url(images/background.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
