@@ -42,11 +42,12 @@ nav ul li a{
 nav ul li a::after{
     content: "";
     width: 0;
-    height: 5px;
+    height: 3px;
     background: #fff;
     position: absolute;
     left: 0;
     bottom: -6px;
+    transition: 2s;
 }
 nav ul li a:hover::after{
     width: 100%;
